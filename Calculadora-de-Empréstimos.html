@@ -122,6 +122,10 @@
             var payment = parseFloat(years.value) * 12;
 
             //Agora calcula o valor do pagamento mensal.
+            var x = Math.pow(1 + interest, payments); //Math.pow() calcula potências
+            var monthly = (principal*x*interest)/(x-1);
+
+            //Se o resultado é um número finito, a entrada do usuário estava correta e
         }
     </script>
 </body>
