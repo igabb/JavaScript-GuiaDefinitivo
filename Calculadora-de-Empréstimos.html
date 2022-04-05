@@ -123,7 +123,7 @@
 
             // Agora calcula o valor do pagamento mensal.
             var x = Math.pow(1 + interest, payments); //Math.pow() calcula potências
-            var monthly = (principal*x*interest)/(x-1);
+            var monthly = (principal * x * interest) / (x - 1);
 
             // Se o resultado é um número finito, a entrada do usuário estava correta e
             // temos resultados significativos para exibir
@@ -131,7 +131,7 @@
                 // Preenche os campos de saída, arredondando para 2 casas decimais
                 payment.innerHTML = monthly.toFixed(2);
                 total.innerHTML = (monthly * payments).toFixed(2);
-                totalinterest.innerHTML = ((monthly*payments)-principal).toFixed(2);
+                totalinterest.innerHTML = ((monthly * payments) - principal).toFixed(2);
 
                 // Salva a entrada do usuário para que possamos recuperá-la na próxima vez que
                 // ele visitar
@@ -141,10 +141,12 @@
                 try { // Captura quaisquer erros que ocorram dentro destas chaves
                     getLenders(amount.value, apr.value, years.value, zipcode.value);
                 }
-                catch(e) { /* E ignora esses erros */ }
+                catch (e) { /* E ignora esses erros */ }
 
                 // Por fim, traça o gráfico do saldo devedor, dos juros e dos pagamentos do capital
                 chart(principal, interest, monthly, payments);
+            } else {
+
             }
         }
     </script>
