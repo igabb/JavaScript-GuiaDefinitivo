@@ -139,8 +139,11 @@
 
                 // Anúncio: localiza e exibe financeiras locais, mas ignora erros de rede
                 try { // Captura quaisquer erros que ocorram dentro destas chaves
-                    
+                    getLenders(amount.value, apr.value, years.value, zipcode.value);
                 }
+                catch(e) { /* E ignora esses erros */ }
+
+                
             }
         }
     </script>
