@@ -161,7 +161,12 @@
         // funciona com HTTP.
 
         function save(amount, apr, years, zipcode) {
-            
+            if (window.localStorage) { // Só faz isso se o navegador suportar
+                localStorage.loan_amount = amount;
+                localStorage.loan_apr = apr;
+                localStorage.loan_years = years;
+                localStorage.loan_zipcode = zipcode;
+            }
         }
     </script>
 </body>
