@@ -190,9 +190,10 @@
         function getLenders (amount, apr, years, zipcode) {
             // Se o navegador não suporta o objeto XMLHttpRequest, não faz nada
             if (!window.XMLHttpRequest) return;
-            //Localiza o elemento para exibir a lista de financeiras
+            // Localiza o elemento para exibir a lista de financeiras
             var ad = document.getElementById("lenders");
             if (!ad) return; // Encerra se não há ponto de saída
+            // Codifica a entrada do usuário como parâmetros de consulta em um URL
         }
     </script>
 </body>
