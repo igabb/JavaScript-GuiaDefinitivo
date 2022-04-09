@@ -172,7 +172,10 @@
         // Tenta restarurar os campos de entrada automaticamente quando o documento é carregado
         // pela primeira vez.
         window.onload = function() {
-            
+            // Se o navegador suporta localStorage e temos alguns dados armazenados
+            if  (window.localStorage && localStorage.loan_amount) {
+                
+            }
         }
     </script>
 </body>
