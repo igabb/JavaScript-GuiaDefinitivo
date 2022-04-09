@@ -195,7 +195,10 @@
             if (!ad) return; // Encerra se não há ponto de saída
             // Codifica a entrada do usuário como parâmetros de consulta em um URL
             var url = "getLenders.php" +                     // Url do serivço mais
-                "? amt=" + encodeURIComponent(amount) +      // Dados do usuário na string
+                "?amt=" + encodeURIComponent(amount) +      // Dados do usuário na string de consulta
+                "&apr=" + encodeURIComponent(apr) +
+                "&yrs=" + encodeURIComponent(years) +
+                "&zip=" + encodeURIComponent(zipcode);
         }
     </script>
 </body>
