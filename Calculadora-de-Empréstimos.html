@@ -210,7 +210,9 @@
         // Esse tipo de programação assíncrona é muito comum em JavaScript do lado
         // cliente.
         req.onreadystatechange = function() {
-            
+            if (req.readyState == 4 && req.status == 200) {
+                
+            }
         }
         }
     </script>
