@@ -233,6 +233,9 @@
         // Se for chamado sem argumentos, basta apagar qualquer gráfico desenhado anteriormente.
         function chart(principal, interest, monthly, payments) {
             var graph = document.getElementById("graph"); // Obtém a marca <canvas>
+            graph.width = graph.width;          // Mágica para apagar e redefinir o elemento
+                                                // canvas
+            
         }
     </script>
 </body>
