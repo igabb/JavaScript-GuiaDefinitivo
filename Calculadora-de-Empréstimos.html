@@ -239,7 +239,8 @@
             if (arguments.length == 0 || !graph.getContext) return;
 
             // Obtém o objeto "contexto" de <canvas> que define a API de desenho
-                var g = graph.getContext("2d");         // Todo desenho é feito com esse objeto
+            var g = graph.getContext("2d");         // Todo desenho é feito com esse objeto
+            var width = graph.width, height = graph.height;     // Obtém o tamanho da tela de desenho
         }
     </script>
 </body>
