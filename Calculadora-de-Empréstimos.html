@@ -236,6 +236,7 @@
             graph.width = graph.width;          // Mágica para apagar e redefinir o elemento canvas
             // Se chamamos sem argumentos ou se esse navegador não suporta
             // elementos gráficos em um elemento <canvas>, basta retornar agora.
+            if (arguments.length == 0 || !graph.getContext) return;
         }
     </script>
 </body>
