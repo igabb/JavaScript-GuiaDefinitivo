@@ -248,6 +248,7 @@
             // Os pagamentos são uma linha reta de (0,0) a (payments, monthly*payments)
             g.moveTo(paymentToX(0), amountToY(0));          // Começa no canto inferior esquerdo
             g.lineTo(paymentToX(payments), amountToY(monthly * payments));      // Desenha até o cato superior direito
+            g.lineTo(paymentToX(payments), amountToY(0));       // Para baixo, até o canto inferior direito
         }
     </script>
 </body>
