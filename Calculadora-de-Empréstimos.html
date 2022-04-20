@@ -246,7 +246,7 @@
             function amountToY(a) { return height - (a * height / (monthly * payments * 1.05)); }
 
             // Os pagamentos são uma linha reta de (0,0) a (payments, monthly*payments)
-            
+            g.moveTo(paymentToX(0), amountToY(0));          // Começa no canto inferior esquerdo
         }
     </script>
 </body>
