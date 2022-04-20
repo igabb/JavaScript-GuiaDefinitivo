@@ -243,6 +243,7 @@
             var width = graph.width, height = graph.height;     // Obtém o tamanho da tela de desenho
             // Essas funções convertem números de pagamento e valores monetários em pixels
             function paymentToX(n) { return n * width / payments; }
+            function amountToY(a) { return height - (a * height / (monthly * payments * 1.05)); }
         }
     </script>
 </body>
