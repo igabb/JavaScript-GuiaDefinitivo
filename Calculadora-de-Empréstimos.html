@@ -244,6 +244,9 @@
             // Essas funções convertem números de pagamento e valores monetários em pixels
             function paymentToX(n) { return n * width / payments; }
             function amountToY(a) { return height - (a * height / (monthly * payments * 1.05)); }
+
+            // Os pagamentos são uma linha reta de (0,0) a (payments, monthly*payments)
+            
         }
     </script>
 </body>
