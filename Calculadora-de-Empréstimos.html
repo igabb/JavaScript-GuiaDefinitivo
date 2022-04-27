@@ -263,6 +263,7 @@
             for (var p = 1; p <= payments; p++) {
                 // Para cada pagamento, descobre quanto é o juros
                 var thisMonthsInterest = (principal-equity)*interest;
+                equity += (monthly- thisMonthsInterest);    // O resto vai para o capital
             }
         }
     </script>
