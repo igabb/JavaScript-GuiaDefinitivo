@@ -268,7 +268,8 @@
             }
             g.lineTo(paymentToX(payments), amountToY(0));    // Linha de volta para o eixo X
             g.closePath();                                   // E volta para o ponto incial
-            g.fillStyle = "green";
+            g.fillStyle = "green";                           // Agora usa tinta verde
+            g.fill();                                        // E preenche a área sob a curva
         }
     </script>
 </body>
