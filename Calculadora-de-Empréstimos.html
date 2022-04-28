@@ -264,8 +264,9 @@
                 // Para cada pagamento, descobre quanto é o juros
                 var thisMonthsInterest = (principal - equity) * interest;
                 equity += (monthly - thisMonthsInterest);    // O resto vai para o capital
-                g.lineTo(paymentToX(p), amountToY(equity)); // Linha até este ponto
+                g.lineTo(paymentToX(p), amountToY(equity));  // Linha até este ponto
             }
+            g.lineTo(paymentToX(payments), amountToY(0));    // Linha de volta para o eixo X
         }
     </script>
 </body>
