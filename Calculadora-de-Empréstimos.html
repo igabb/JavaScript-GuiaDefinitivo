@@ -271,13 +271,13 @@
             g.fillStyle = "green";                           // Agora usa tinta verde
             g.fill();                                        // E preenche a área sob a curva
             g.fillText("Total Equity", 20, 35);              // Rotula em verde        
-            
+
             // Faz laço novamente, como acima, mas representa o saldo devedor como uma linha
             // preta grossa no gráfico
             var bal = principal;
             g.beginPath();
             g.moveTo(paymentToX(0), amountToY(bal));
-            for(var p = 1; p<= payments; p++) {
+            for (var p = 1; p <= payments; p++) {
                 
             }
         }
