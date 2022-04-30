@@ -280,6 +280,7 @@
             for (var p = 1; p <= payments; p++) {
                 var thisMonthsInterest = bal*interest;
                 bal -= (monthly - thisMonthsInterest);       // O resto vai para o capital
+                g.lineTo(paymentToX(p), amountToY(bal));     // Desenha a linha até esse ponto
             }
         }
     </script>
