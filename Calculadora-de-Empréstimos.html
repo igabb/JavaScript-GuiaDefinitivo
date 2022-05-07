@@ -292,6 +292,7 @@
             var y = amountToY(0);                            // Coordena Y do eixo X
             for (var year = 1; year * 12 <= payments; year++) {         // Para cada ano
                 var x = paymentToX(year * 12);               // Calcula a posição da marca
+                g.fillRect(x - 0.5, y - 3, 1, 3);            // Desenha a marca
             }
         }
     </script>
