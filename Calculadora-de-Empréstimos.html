@@ -301,10 +301,11 @@
             // Marca valores de pagamento ao longo da margem direita
             g.textAlign = "right";                           // Alinha o texto à direita
             g.textBaseline = "middle";                       // Centraliza verticalmente
-            var ticks = [monthly * payments, principal];       // Os dois pontos que marcaremos
+            var ticks = [monthly * payments, principal];     // Os dois pontos que marcaremos
             var rightEdge = paymentToX(payments);            // Coordenada X do eixo Y
             for (var i = 0; i < ticks.length; i++) {         // Para cada um dos 2 pontos
                 var y = amountToY(ticks[i]);                 // Calcula a posição Y da marca
+                g.fillRect(rightEdge - 3, y - 0.5, 3, 1);    // Desenha a marcação
             }
         }
     </script>
