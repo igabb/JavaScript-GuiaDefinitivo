@@ -1,5 +1,5 @@
 /* 
-JavaScript básica
+1.1 JavaScript básica
 
 // Tudo que vem após barras normais duplas é um comentário em linguagem natural
 
