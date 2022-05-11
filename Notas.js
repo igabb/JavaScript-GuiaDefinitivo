@@ -14,6 +14,11 @@ x = true;                                           // Valores booleanos.
 x = false;                                          // O outro valor booleano.
 x = null;                                           // Null é um valor especial que significa "nenhum valor".
 x = undefined;                                      // undefined é como null.
+
+O tipo de dados mais importante de  JavaScript é o objeto.
+Um objeto é uma coleção de pares nome/valor ou uma string para mapa de valores.
 */
 
-[i]
+var book = {
+    
+}
