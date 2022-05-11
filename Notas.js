@@ -32,3 +32,4 @@ book.contents = {};                                 // {} é um objeto vazio sem
 
 // JavaScript também aceita arrays (listas indexadas numericamente) de valores.
 var primes = [2, 3, 5, 7];                          // Um array de 4 valores, delimitados com [ e ].
+primes [0]                                          // => 2: o primeiro elemento (índice 0) do array.
