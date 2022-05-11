@@ -37,3 +37,4 @@ primes.length                                       // => 4: quantidade de eleme
 primes[primes.length - 1]                           // => 7: o último elemento do array.
 primes[4] = 9                                       // Adiciona um novo elemento por meio de atribuição.
 primes[4] = 11                                      // Ou altera um novo elemento existente por meio de atribuição.
+empty.length                                        // => 0
