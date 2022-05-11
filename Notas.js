@@ -29,3 +29,6 @@ book.topic                                          // => "JavaScript"
 book["fat"]                                         // => true: outro modo de acessar valores de propriedade.
 book.author = "Flanagan";                           // Crie novas propriedades por meio de atribuição.
 book.contents = {};                                 // {} é um objeto vazio sem qualquer propriedade.
+
+// JavaScript também aceita arrays (listas indexadas numericamente) de valores.
+var primes = [2, 3, 5, 7];                          // Um array de 4 valores, delimitados com [ e ].
