@@ -28,3 +28,4 @@ var book = {                                        // Objetos são colocados en
 book.topic                                          // => "JavaScript"
 book["fat"]                                         // => true: outro modo de acessar valores de propriedade.
 book.author = "Flanagan";                           // Crie novas propriedades por meio de atribuição.
+book.contents = {};                                 // {} é um objeto vazio sem qualquer propriedade.
