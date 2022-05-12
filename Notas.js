@@ -44,4 +44,4 @@ empty.length                                        // => 0
 var points = [                                      // Um array com 2 elementos.
     {x:0, y:0},                                     // Cada elemento é um objeto.
     {x:1, y:1}
-]
+];
