@@ -45,6 +45,6 @@ var points = [                                      // Um array com 2 elementos.
     {x:0, y:0},                                     // Cada elemento é um objeto.
     {x:1, y:1}
 ];
-var data = {
-    
+var data = {                                        // Um objeto com 2 propriedades
+    trial1: [[1,2], [3,4]],                         // O valor de cada propriedade é um array.
 }
