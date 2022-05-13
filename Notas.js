@@ -49,3 +49,5 @@ var data = {                                        // Um objeto com 2 proprieda
     trial1: [[1,2], [3,4]],                         // O valor de cada propriedade é um array.
     trial2: [[2,3], [4,5]],                         // O elemento dos arrays são arrays.
 };
+
+// Os operadores atuam sobre os valores (operando) para produzir um novo valor.
