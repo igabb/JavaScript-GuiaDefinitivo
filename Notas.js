@@ -52,3 +52,4 @@ var data = {                                        // Um objeto com 2 proprieda
 
 // Os operadores atuam sobre os valores (operando) para produzir um novo valor.
 // Os operadores aritiméticos são os mais comuns:
+3 + 2                                               // => 5: adição
