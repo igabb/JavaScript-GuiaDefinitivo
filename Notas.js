@@ -60,3 +60,4 @@ points[1].x - points[0].x                           // => 1: operandos mais comp
 "3" + "2"                                           // => "32": + soma números, ou concatena strings
 
 // JavaScript define alguns operadores aritméticos de forma abreviada
+var count = 0;                                      // Define uma variável
