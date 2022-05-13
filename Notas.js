@@ -63,3 +63,4 @@ points[1].x - points[0].x                           // => 1: operandos mais comp
 var count = 0;                                      // Define uma variável
 count++;                                            // Incrementa a variável
 count--;                                            // Decrementa a variável
+count += 2;                                         // Soma 2: o mesmo que count = count + 2
