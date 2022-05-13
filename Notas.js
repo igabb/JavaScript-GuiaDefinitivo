@@ -55,3 +55,4 @@ var data = {                                        // Um objeto com 2 proprieda
 3 + 2                                               // => 5: adição
 3 - 2                                               // => 1: subtração
 3 * 2                                               // => 6: multiplicação
+3 / 2                                               // => 1.5: divisão
