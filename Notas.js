@@ -58,3 +58,5 @@ var data = {                                        // Um objeto com 2 proprieda
 3 / 2                                               // => 1.5: divisão
 points[1].x - points[0].x                           // => 1: operandos mais complicados também funcionam
 "3" + "2"                                           // => "32": + soma números, ou concatena strings
+
+// JavaScript define alguns operadores aritméticos de forma abreviada
