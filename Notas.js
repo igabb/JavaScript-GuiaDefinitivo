@@ -54,3 +54,4 @@ var data = {                                        // Um objeto com 2 proprieda
 // Os operadores aritiméticos são os mais comuns:
 3 + 2                                               // => 5: adição
 3 - 2                                               // => 1: subtração
+3 * 2                                               // => 6: multiplicação
