@@ -61,3 +61,4 @@ points[1].x - points[0].x                           // => 1: operandos mais comp
 
 // JavaScript define alguns operadores aritméticos de forma abreviada
 var count = 0;                                      // Define uma variável
+count++;                                            // Incrementa a variável
