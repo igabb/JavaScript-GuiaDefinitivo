@@ -73,3 +73,4 @@ var x = 2, y = 3;                                   // Esses sinais = são atrib
 x == y                                              // => Falso: igualdade
 x != y                                              // => Verdadeiro: desigualdade
 x < y                                               // => Verdadeiro: menor que 
+x <= y                                              // => Verdadeiro: menor ou igual a
