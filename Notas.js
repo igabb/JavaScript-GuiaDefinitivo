@@ -66,3 +66,6 @@ count--;                                            // Decrementa a variável
 count += 2;                                         // Soma 2: o mesmo que count = count + 2
 count *= 3;                                         // Multiplica por 3: o mesmo que count = count * 3;
 count                                               // => 6: nome de variáveis também são expressões
+
+// Os operadores de igualdade e relacionais testam se dois valores são iguais,
+// desiguais, menores que, maiores que, etc. São avaliados como verdadeiro ou falsos.
