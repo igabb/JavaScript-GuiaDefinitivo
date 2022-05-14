@@ -69,3 +69,4 @@ count                                               // => 6: nome de variáveis 
 
 // Os operadores de igualdade e relacionais testam se dois valores são iguais,
 // desiguais, menores que, maiores que, etc. São avaliados como verdadeiro ou falsos.
+var x = 2, y = 3;                                   // Esses sinais = são atribuições e não testes de igualdade.
