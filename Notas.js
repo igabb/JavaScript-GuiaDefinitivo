@@ -71,3 +71,4 @@ count                                               // => 6: nome de variáveis 
 // desiguais, menores que, maiores que, etc. São avaliados como verdadeiro ou falsos.
 var x = 2, y = 3;                                   // Esses sinais = são atribuições e não testes de igualdade.
 x == y                                              // => falso: igualdade
+x != y                                              // Verdadeiro: desigualdade
