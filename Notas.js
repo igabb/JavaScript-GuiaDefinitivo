@@ -42,12 +42,12 @@ empty.length                                        // => 0
 
 // Os arrays e objetos podem conter outros arrays e objetos:
 var points = [                                      // Um array com 2 elementos.
-    {x:0, y:0},                                     // Cada elemento é um objeto.
-    {x:1, y:1}
+    { x: 0, y: 0 },                                     // Cada elemento é um objeto.
+    { x: 1, y: 1 }
 ];
 var data = {                                        // Um objeto com 2 propriedades
-    trial1: [[1,2], [3,4]],                         // O valor de cada propriedade é um array.
-    trial2: [[2,3], [4,5]],                         // O elemento dos arrays são arrays.
+    trial1: [[1, 2], [3, 4]],                         // O valor de cada propriedade é um array.
+    trial2: [[2, 3], [4, 5]],                         // O elemento dos arrays são arrays.
 };
 
 // Os operadores atuam sobre os valores (operando) para produzir um novo valor.
@@ -64,3 +64,4 @@ var count = 0;                                      // Define uma variável
 count++;                                            // Incrementa a variável
 count--;                                            // Decrementa a variável
 count += 2;                                         // Soma 2: o mesmo que count = count + 2
+count *= 3;                                         // Multiplica por 3: o mesmo que count = count * 3;
