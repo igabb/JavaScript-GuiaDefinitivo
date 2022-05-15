@@ -9,4 +9,4 @@ Font: código da página nº 13 a nº 18.
 
 # Notas
 
-Lógica de programação JavaScript
+Lógica de programação JavaScript.
