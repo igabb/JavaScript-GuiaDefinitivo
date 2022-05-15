@@ -75,4 +75,4 @@ x != y                                              // => Verdadeiro: desigualda
 x < y                                               // => Verdadeiro: menor que 
 x <= y                                              // => Verdadeiro: menor ou igual a
 x > y                                               // => Falso: maior que
-x >=
+x >= y                                              // => Falso: maior ou igual a
