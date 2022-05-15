@@ -74,3 +74,5 @@ x == y                                              // => Falso: igualdade
 x != y                                              // => Verdadeiro: desigualdade
 x < y                                               // => Verdadeiro: menor que 
 x <= y                                              // => Verdadeiro: menor ou igual a
+x > y                                               // => Falso: maior que
+x >=
