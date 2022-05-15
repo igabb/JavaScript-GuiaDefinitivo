@@ -8,3 +8,5 @@ o exemplo demonstra vários recursos da linguagem JavaScript básica e também i
 Font: código da página nº 13 a nº 18.
 
 # Notas
+
+Lógica de programação JavaScript
