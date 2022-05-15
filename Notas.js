@@ -80,3 +80,4 @@ x >= y                                              // => Falso: maior ou igual 
 "two" >= "three"                                    // => Verdadeiro: "tw" é alfabeticamente maior do que "th"
 false == (x > y)                                    // => Verdadeiro: falso é igual a falso
 
+// Os operadores lógicos combinam ou invertem valores booleanos
