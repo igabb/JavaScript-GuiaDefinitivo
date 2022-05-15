@@ -76,3 +76,4 @@ x < y                                               // => Verdadeiro: menor que
 x <= y                                              // => Verdadeiro: menor ou igual a
 x > y                                               // => Falso: maior que
 x >= y                                              // => Falso: maior ou igual a
+"two" == "three"                                    // => falso: as duas strings são diferentes
