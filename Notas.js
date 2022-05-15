@@ -86,6 +86,6 @@ false == (x > y)                                    // => Verdadeiro: falso é i
 !(x == y)                                           // => Verdadeiro: ! inverte um valor booleano
 
 // As funções são blocos de códigos JavaScript parametrizados que podemos chamar.
-function plus1(x) {
-    
+function plus1(x) {                                 // Define uma função chamada "plus1", com o parâmetro "x"
+
 }
