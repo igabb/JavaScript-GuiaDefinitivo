@@ -84,3 +84,4 @@ false == (x > y)                                    // => Verdadeiro: falso é i
 (x == 2) && (y == 3)                                // => Verdadeiro: as duas comparações são verdadeiras. && é E
 (x > 3) || (y < 3)                                  // => Falso: nenhuma das comparações é verdadeira. || é OU
 !(x == y)                                           // => Verdadeiro: ! inverte um valor booleano
+
