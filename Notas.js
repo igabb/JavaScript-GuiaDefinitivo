@@ -78,3 +78,4 @@ x > y                                               // => Falso: maior que
 x >= y                                              // => Falso: maior ou igual a
 "two" == "three"                                    // => falso: as duas strings são diferentes
 "two" >= "three"                                    // => Verdadeiro: "tw" é alfabeticamente maior do que "th"
+false == (x > y)                                    // => Verdadeiro: falso é igual a falso
