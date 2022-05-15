@@ -85,3 +85,4 @@ false == (x > y)                                    // => Verdadeiro: falso é i
 (x > 3) || (y < 3)                                  // => Falso: nenhuma das comparações é verdadeira. || é OU
 !(x == y)                                           // => Verdadeiro: ! inverte um valor booleano
 
+// As funções são blocos de códigos JavaScript parametrizados que podemos chamar.
