@@ -80,12 +80,12 @@ x >= y                                              // => Falso: maior ou igual 
 "two" >= "three"                                    // => Verdadeiro: "tw" é alfabeticamente maior do que "th"
 false == (x > y)                                    // => Verdadeiro: falso é igual a falso
 
-// Os operadores lógicos combinam ou invertem valores booleanos
-(x == 2) && (y == 3)                                // => Verdadeiro: as duas comparações são verdadeiras. && é E
-(x > 3) || (y < 3)                                  // => Falso: nenhuma das comparações é verdadeira. || é OU
+    // Os operadores lógicos combinam ou invertem valores booleanos
+    (x == 2) && (y == 3)                                // => Verdadeiro: as duas comparações são verdadeiras. && é E
+        (x > 3) || (y < 3)                                  // => Falso: nenhuma das comparações é verdadeira. || é OU
 !(x == y)                                           // => Verdadeiro: ! inverte um valor booleano
 
 // As funções são blocos de códigos JavaScript parametrizados que podemos chamar.
 function plus1(x) {                                 // Define uma função chamada "plus1", com o parâmetro "x"
-
+    return x+1                                      // Retorna um valor uma unidade maior do que o que foi passado
 }
