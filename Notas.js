@@ -100,4 +100,4 @@ square(plus(y))                                     // => 16: chama duas funçõ
 
 // Quando combinamos funções com expressões, obtemos métodos:
 // Quando  funções recebem as propriedades de um objeto, as chamamos de métodos.
-//
+// Todos os objetos de JavaScript tem métodos:
