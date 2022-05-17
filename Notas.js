@@ -103,3 +103,4 @@ square(plus(y))                                     // => 16: chama duas funçõ
 // Todos os objetos de JavaScript tem métodos:
 var a = [];                                         // Cria uma array vazio
 a.push(1, 2, 3 );                                   // O método push() adiciona elementos em um array
+a.reverse();                                        // Outro método: inverte a ordem dos elementos
