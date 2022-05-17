@@ -99,3 +99,5 @@ var square = function (x) {                         // As funçoes são valores 
 square(plus(y))                                     // => 16: chama duas funções em uma única expressão
 
 // Quando combinamos funções com expressões, obtemos métodos:
+// Quando  funções recebem as propriedades de um objeto, as chamamos de métodos.
+//
