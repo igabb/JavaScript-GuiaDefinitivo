@@ -101,4 +101,5 @@ square(plus(y))                                     // => 16: chama duas funçõ
 // Quando combinamos funções com expressões, obtemos métodos:
 // Quando  funções recebem as propriedades de um objeto, as chamamos de métodos.
 // Todos os objetos de JavaScript tem métodos:
-var a = [];                                         // cria uma array vazio
+var a = [];                                         // Cria uma array vazio
+a.push(1, 2, 3 );                                   // O método push() adiciona elementos em um array
