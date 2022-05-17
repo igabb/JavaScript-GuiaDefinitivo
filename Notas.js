@@ -91,3 +91,7 @@ function plus1(x) {                                 // Define uma função chama
 }                                                   // As funções são incluídas entre chaves
 
 plus1(y)                                            // => 4: y = 3; portanto, essa chamada retorna 3 + 1  
+
+var square = function(x) {
+    
+}
