@@ -102,11 +102,12 @@ square(plus(y))                                     // => 16: chama duas funçõ
 // Quando  funções recebem as propriedades de um objeto, as chamamos de métodos.
 // Todos os objetos de JavaScript tem métodos:
 var a = [];                                         // Cria uma array vazio
-a.push(1, 2, 3);                                   // O método push() adiciona elementos em um array
+a.push(1, 2, 3);                                    // O método push() adiciona elementos em um array
 a.reverse();                                        // Outro método: inverte a ordem dos elementos
 
 // Também podemos definir nossos próprios métodos. A palavra-chave "this" se refere ao
 // objeto no qual o método é definido: neste caso, o array de pontos anterior.
-points.dist = function () {
+points.dist = function () {                         // Define um método para calcular a distância entre pontos
+    
 
 }
