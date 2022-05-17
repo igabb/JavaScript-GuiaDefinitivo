@@ -104,3 +104,5 @@ square(plus(y))                                     // => 16: chama duas funçõ
 var a = [];                                         // Cria uma array vazio
 a.push(1, 2, 3 );                                   // O método push() adiciona elementos em um array
 a.reverse();                                        // Outro método: inverte a ordem dos elementos
+
+// Também podemos definir nossos próprios métodos. A palavra-chave "this" se refere ao
