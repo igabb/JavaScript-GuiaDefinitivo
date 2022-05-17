@@ -94,4 +94,4 @@ plus1(y)                                            // => 4: y = 3; portanto, es
 
 var square = function (x) {                         // As funçoes são valores e podem ser atribuídas a variáveis
     return x * x;                                   // Calcula valor e função
-}
+};                                                  // Um ponto e vírgula marca o fim da atribuição
