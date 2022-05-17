@@ -97,3 +97,5 @@ var square = function (x) {                         // As funçoes são valores 
 };                                                  // Um ponto e vírgula marca o fim da atribuição
 
 square(plus(y))                                     // => 16: chama duas funções em uma única expressão
+
+// Quando combinamos funções com expressões, obtemos métodos:
