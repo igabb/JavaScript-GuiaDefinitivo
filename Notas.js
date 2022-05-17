@@ -106,3 +106,4 @@ a.push(1, 2, 3 );                                   // O método push() adiciona
 a.reverse();                                        // Outro método: inverte a ordem dos elementos
 
 // Também podemos definir nossos próprios métodos. A palavra-chave "this" se refere ao
+// objeto no qual o método é definido: neste caso, o array de pontos anterior.
