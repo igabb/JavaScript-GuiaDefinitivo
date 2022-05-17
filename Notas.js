@@ -108,6 +108,5 @@ a.reverse();                                        // Outro método: inverte a 
 // Também podemos definir nossos próprios métodos. A palavra-chave "this" se refere ao
 // objeto no qual o método é definido: neste caso, o array de pontos anterior.
 points.dist = function () {                         // Define um método para calcular a distância entre pontos
-    
-
+    var p1 = this[0];                               // Primeiro elemento do array que chamamos
 }
