@@ -87,5 +87,7 @@ false == (x > y)                                    // => Verdadeiro: falso é i
 
 // As funções são blocos de códigos JavaScript parametrizados que podemos chamar.
 function plus1(x) {                                 // Define uma função chamada "plus1", com o parâmetro "x"
-    return x+1                                      // Retorna um valor uma unidade maior do que o que foi passado
+    return x + 1                                    // Retorna um valor uma unidade maior do que o que foi passado
 }                                                   // As funções são incluídas entre chaves
+
+plus1(y)                                            // => 4: y = 3; portanto, essa chamada retorna 3 + 1  
