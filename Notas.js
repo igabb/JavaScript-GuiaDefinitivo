@@ -92,6 +92,6 @@ function plus1(x) {                                 // Define uma função chama
 
 plus1(y)                                            // => 4: y = 3; portanto, essa chamada retorna 3 + 1  
 
-var square = function(x) {
-    
+var square = function (x) {                         // As funçoes são valores e podem ser atribuídas a variáveis
+
 }
