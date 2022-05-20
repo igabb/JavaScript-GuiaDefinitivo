@@ -110,4 +110,5 @@ a.reverse();                                        // Outro método: inverte a 
 points.dist = function () {                         // Define um método para calcular a distância entre pontos
     var p1 = this[0];                               // Primeiro elemento do array que chamamos
     var p2 = this[1];                               // Segundo elemento do objeto "this"
+    var a = p2.x - p1.x;                            // Diferença em coordenadas X
 }
