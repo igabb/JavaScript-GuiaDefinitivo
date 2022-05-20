@@ -121,5 +121,8 @@ points.dist()                                       // => 1,414: distância entr
 function abs(x) {                                   // Uma função para calcular o valor absoluto
     if (x >= 0) {                                   // A instrução if...
         return x;                                   // executa este código, se a comparação for verdadeira.
+    }                                               // Este é o fim da cláusula if.
+    else {
+
     }
 }
