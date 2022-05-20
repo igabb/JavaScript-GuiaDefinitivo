@@ -111,4 +111,5 @@ points.dist = function () {                         // Define um método para ca
     var p1 = this[0];                               // Primeiro elemento do array que chamamos
     var p2 = this[1];                               // Segundo elemento do objeto "this"
     var a = p2.x - p1.x;                            // Diferença em coordenadas X
+    var b = p2.y - p1.y;                            // Diferença em coordenadas Y
 }
