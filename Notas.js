@@ -123,6 +123,6 @@ function abs(x) {                                   // Uma função para calcula
         return x;                                   // executa este código, se a comparação for verdadeira.
     }                                               // Este é o fim da cláusula if.
     else {
-
+        return -x;
     }
 }
