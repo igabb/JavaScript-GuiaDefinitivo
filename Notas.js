@@ -117,3 +117,4 @@ points.dist = function () {                         // Define um método para ca
 points.dist()                                       // => 1,414: distância entre nossos 2 pontos
 
 // As instruções JavaScript incluem condicionais e laços que usa a sintaxe
+// das linguagens C, C++, java e outras.
