@@ -122,7 +122,7 @@ function abs(x) {                                   // Uma função para calcula
     if (x >= 0) {                                   // A instrução if...
         return x;                                   // executa este código, se a comparação for verdadeira.
     }                                               // Este é o fim da cláusula if.
-    else {
-        return -x;
-    }
-}
+    else {                                          // A cláusula opcional else executa seu código se
+        return -x;                                  // a comparação for falsa.
+    }                                               // Chaves são opcionais quando há 1 instrução por cláusula.
+}                                                   // Observe as instrução return aninhadas dentro de if/else.
