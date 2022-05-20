@@ -118,6 +118,8 @@ points.dist()                                       // => 1,414: distância entr
 
 // As instruções JavaScript incluem condicionais e laços que usa a sintaxe
 // das linguagens C, C++, java e outras.
-function abs(x) {
-    
+function abs(x) {                                   // Uma função para calcular o valor absoluto
+    if (x >= 0) {                                   // A instrução if...
+        return x;                                   // executa este código, se a comparação for verdadeira.
+    }
 }
