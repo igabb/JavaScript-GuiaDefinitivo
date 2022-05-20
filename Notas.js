@@ -115,3 +115,5 @@ points.dist = function () {                         // Define um método para ca
     return Math.sqrt(a * a + b * b);                // Math.sqrt() calcula a raiz quadrada
 };
 points.dist()                                       // => 1,414: distância entre nossos 2 pontos
+
+// As instruções JavaScript incluem condicionais e laços que usa a sintaxe
