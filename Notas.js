@@ -113,4 +113,5 @@ points.dist = function () {                         // Define um método para ca
     var a = p2.x - p1.x;                            // Diferença em coordenadas X
     var b = p2.y - p1.y;                            // Diferença em coordenadas Y
     return Math.sqrt(a * a + b * b);                // Math.sqrt() calcula a raiz quadrada
-}
+};
+points.dist()                                       // => 1,414: distância entre nossos 2 pontos
