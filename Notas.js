@@ -128,5 +128,5 @@ function abs(x) {                                   // Uma função para calcula
 }                                                   // Observe as instrução return aninhadas dentro de if/else.
 
 function factorial(n) {                             // Uma função para calcular fatoriais
-
+    var product = 1;                                // Começa com o produto de 1
 }
