@@ -131,5 +131,6 @@ function factorial(n) {                             // Uma função para calcula
     var product = 1;                                // Começa com o produto de 1
     while (n > 1) {                                 // Repete as instruções que estão em {}, enquanto a expressão em () for verdadeira
         product *= n;                               // Atalho para product = product * n;
+        n--;                                        // Atalho para n = n - 1
     }
 }
