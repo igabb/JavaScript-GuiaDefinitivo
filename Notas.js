@@ -135,3 +135,4 @@ function factorial(n) {                             // Uma função para calcula
     }                                               // Fim do laço
     return product;                                 // Retorna o produto
 }
+factorial(4)                                        // => 24: 1*4*3*2
