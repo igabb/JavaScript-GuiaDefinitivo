@@ -129,7 +129,7 @@ function abs(x) {                                   // Uma função para calcula
 
 function factorial(n) {                             // Uma função para calcular fatoriais
     var product = 1;                                // Começa com o produto de 1
-    while(n > 1) {                                  // Repete as instruções que estão em {}, enquanto a
-
+    while (n > 1) {                                 // Repete as instruções que estão em {}, enquanto a expressão em () for verdadeira
+        product *= n;                               // Atalho para product = product * n;
     }
 }
