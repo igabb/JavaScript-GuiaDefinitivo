@@ -126,3 +126,7 @@ function abs(x) {                                   // Uma função para calcula
         return -x;                                  // a comparação for falsa.
     }                                               // Chaves são opcionais quando há 1 instrução por cláusula.
 }                                                   // Observe as instrução return aninhadas dentro de if/else.
+
+function factorial(n) {                             // Uma função para calcular fatoriais
+
+}
