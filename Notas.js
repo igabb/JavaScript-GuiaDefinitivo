@@ -132,5 +132,5 @@ function factorial(n) {                             // Uma função para calcula
     while (n > 1) {                                 // Repete as instruções que estão em {}, enquanto a expressão em () for verdadeira
         product *= n;                               // Atalho para product = product * n;
         n--;                                        // Atalho para n = n - 1
-    }
+    }                                               // Fim do laço
 }
