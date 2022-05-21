@@ -133,4 +133,5 @@ function factorial(n) {                             // Uma função para calcula
         product *= n;                               // Atalho para product = product * n;
         n--;                                        // Atalho para n = n - 1
     }                                               // Fim do laço
+    return product;                                 // Retorna o produto
 }
