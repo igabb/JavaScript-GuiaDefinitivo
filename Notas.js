@@ -142,5 +142,5 @@ function factorial2(n) {                            // Outra versão, usando um 
     var i, product = 1;                             // Começa com 1
     for (i = 2; i <= n; i++)                        // Incrementa i automaticamente, de 2 até n
         product *= i;                               // Faz isso cada vez. {} não é necessário para laçõs de 1 linha
-        
+    return product;                                 // Retorna fatorial
 }
