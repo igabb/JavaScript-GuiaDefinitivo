@@ -144,3 +144,4 @@ function factorial2(n) {                            // Outra versão, usando um 
         product *= i;                               // Faz isso cada vez. {} não é necessário para laçõs de 1 linha
     return product;                                 // Retorna fatorial
 }
+factorial2(5)                                       // => 120: 1*2*3*4*5
