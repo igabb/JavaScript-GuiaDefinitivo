@@ -139,5 +139,6 @@ function factorial(n) {                             // Uma função para calcula
 factorial(4)                                        // => 24: 1*4*3*2
 
 function factorial2(n) {                            // Outra versão, usando um laço diferente
-
+    var i, product = 1;                             // Começa com 1
+    
 }
