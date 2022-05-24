@@ -145,3 +145,5 @@ function factorial2(n) {                            // Outra versão, usando um 
     return product;                                 // Retorna fatorial
 }
 factorial2(5)                                       // => 120: 1*2*3*4*5
+
+// Define uma função construtora para inicializar um novo objeto Point
