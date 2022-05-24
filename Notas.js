@@ -150,4 +150,4 @@ factorial2(5)                                       // => 120: 1*2*3*4*5
 function Point(x, y) {                              // Por convenção as construtoras começam com letra maíusculas
     this.x = x;                                     // A palavra-chave this é o novo objeto que está sendo inicializado
     this.y = y;                                     // Armazena os argumentos da função como propriedades do objeto
-}
+}                                                   // Nenhum return é necessário
