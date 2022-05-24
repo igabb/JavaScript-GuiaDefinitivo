@@ -148,5 +148,5 @@ factorial2(5)                                       // => 120: 1*2*3*4*5
 
 // Define uma função construtora para inicializar um novo objeto Point
 function Point(x, y) {                              // Por convenção as construtoras começam com letra maíusculas
-
+    this.x = x;                                     // A palavra-chave this é o novo objeto que está sendo inicializado
 }
