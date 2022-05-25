@@ -159,4 +159,4 @@ var p = new Point(1, 1);                            // O ponto geométrico (1, 1
 return Math.sqrt(                                   // Retorna a raiz quadrada de x² + y ²
     this.x * this.x +                               // Este é o objeto Point no qual o método...
     this.y * this.y                                 // ... é chamado
-)
+);
