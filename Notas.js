@@ -155,3 +155,4 @@ function Point(x, y) {                              // Por convenção as constr
 // Usa uma função construtora com a palavra-chave "new" para criar instâncias
 var p = new Point(1, 1);                            // O ponto geométrico (1, 1)
 // Define métodos para objetos Point atribuindo-os ao objeto
+// prototype associado à função construtora.
