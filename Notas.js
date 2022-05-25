@@ -151,3 +151,5 @@ function Point(x, y) {                              // Por convenção as constr
     this.x = x;                                     // A palavra-chave this é o novo objeto que está sendo inicializado
     this.y = y;                                     // Armazena os argumentos da função como propriedades do objeto
 }                                                   // Nenhum return é necessário
+
+// Usa uma função construtora com a palavra-chave "new" para criar instâncias
