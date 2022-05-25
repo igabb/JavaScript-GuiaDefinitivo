@@ -156,6 +156,7 @@ function Point(x, y) {                              // Por convenção as constr
 var p = new Point(1, 1);                            // O ponto geométrico (1, 1)
 // Define métodos para objetos Point atribuindo-os ao objeto
 // prototype associado à função construtora.
+
 Point.prototype.r = function() {
     return Math.sqrt(                                   // Retorna a raiz quadrada de x² + y ²
           this.x * this.x +                               // Este é o objeto Point no qual o método...
