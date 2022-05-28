@@ -169,3 +169,6 @@ p.r()                                                   // => 1,414...
 
 /*
 Palavras reservadas
+JavaScript reserva vários identificadores como palavra-chave da própria linguagem.
+
+*/
