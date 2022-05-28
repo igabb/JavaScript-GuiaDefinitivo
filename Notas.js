@@ -166,3 +166,4 @@ Point.prototype.r = function () {
 
 // Agora o objeto Point b (e todos os futuros objetos Point) herda o método r()
 p.r()                                                   // => 1,414...
+
