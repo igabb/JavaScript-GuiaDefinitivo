@@ -171,4 +171,5 @@ p.r()                                                   // => 1,414...
 Palavras reservadas
 JavaScript reserva vários identificadores como palavra-chave da própria linguagem.
 Você não pode usar essas palavras como identificadores em seus programas.
+
 */
