@@ -174,5 +174,5 @@ Você não pode usar essas palavras como identificadores em seus programas.
 
 break       delete      function        return      typeof
 case        do          if              switch      var
-catch
+catch       else
 */
