@@ -173,5 +173,5 @@ JavaScript reserva vários identificadores como palavra-chave da própria lingua
 Você não pode usar essas palavras como identificadores em seus programas.
 
 break       delete      function        return      typeof
-case        do          if              switch
+case        do          if              switch      
 */
