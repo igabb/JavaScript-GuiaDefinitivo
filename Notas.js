@@ -177,5 +177,5 @@ case        do          if              switch      var
 catch       else        in              this        void
 continue    false       instanceof      throw       while
 debugger    finally     new             true        with
-default     
+default     for         
 */
