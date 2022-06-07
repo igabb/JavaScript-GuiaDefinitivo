@@ -184,4 +184,6 @@ default     for         null            try
 JavaScript também reserva certas palavras-chave não utilizada atualmente na linguagem, mas que poderão ser usadas em futuras versões. A ECMAScript 5 reserva as seguintes palavras:
 
 class       const       enum        export      extends     imports     super
+
+Além disso, as seguintes palavras, que são válidas em código JavaScript normal, são reservadas no modo restrito:
 */
