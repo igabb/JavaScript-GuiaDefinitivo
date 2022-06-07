@@ -188,5 +188,5 @@ class       const       enum        export      extends     imports     super
 Além disso, as seguintes palavras, que são válidas em código JavaScript normal, são reservadas no modo restrito:
 
 implements      let         private     public      yield
-interface       package     protected   
+interface       package     protected   static
 */
