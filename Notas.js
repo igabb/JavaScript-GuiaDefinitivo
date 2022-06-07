@@ -183,5 +183,5 @@ default     for         null            try
 /*
 JavaScript também reserva certas palavras-chave não utilizada atualmente na linguagem, mas que poderão ser usadas em futuras versões. A ECMAScript 5 reserva as seguintes palavras:
 
-
+class       
 */
