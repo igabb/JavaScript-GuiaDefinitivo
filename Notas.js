@@ -186,4 +186,6 @@ JavaScript também reserva certas palavras-chave não utilizada atualmente na li
 class       const       enum        export      extends     imports     super
 
 Além disso, as seguintes palavras, que são válidas em código JavaScript normal, são reservadas no modo restrito:
+
+implements
 */
