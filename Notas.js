@@ -192,5 +192,5 @@ interface       package     protected   static
 
 O modo restrito também impõe restrições sobre o uso dos identificadores a seguir. Eles não são totalmente reservados, mas não são permitidos como nomes de variável, função ou parâmetro:
 
-arguments
+arguments       eval
 */
