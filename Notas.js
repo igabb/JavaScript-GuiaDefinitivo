@@ -195,4 +195,6 @@ O modo restrito também impõe restrições sobre o uso dos identificadores a se
 arguments       eval
 
 ECMAScript 3 reservou todas as palavras-chave da linguagem Java e, embora tenham sido consentidos em ECMAScript 5, você ainda deve evitar todos os identificadores, caso pretenda executar seu código em uma implementação ECMAScript 3 de JavaScript:
+
+abstract
 */
