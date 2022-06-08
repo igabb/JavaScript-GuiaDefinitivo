@@ -190,5 +190,5 @@ Além disso, as seguintes palavras, que são válidas em código JavaScript norm
 implements      let         private     public      yield
 interface       package     protected   static
 
-
+O modo restrito também impões restrições sobre o uso dos identificadores a seguir. eles não são totalmente reservados, mas não são permitidos como nomes de variável, função ou parâmetro:
 */
