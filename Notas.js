@@ -197,5 +197,5 @@ arguments       eval
 ECMAScript 3 reservou todas as palavras-chave da linguagem Java e, embora tenham sido consentidos em ECMAScript 5, você ainda deve evitar todos os identificadores, caso pretenda executar seu código em uma implementação ECMAScript 3 de JavaScript:
 
 abstract        double      goto        native      static
-boolean         enum
+boolean         enum        implements  
 */
