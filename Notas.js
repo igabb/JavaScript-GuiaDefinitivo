@@ -200,5 +200,5 @@ abstract        double      goto        native      static
 boolean         enum        implements  package     super
 byte            export      import      private     synchronized
 char            extends     int         protected   throws
-class           
+class           final       
 */
