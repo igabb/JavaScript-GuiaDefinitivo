@@ -198,5 +198,6 @@ ECMAScript 3 reservou todas as palavras-chave da linguagem Java e, embora tenham
 
 abstract        double      goto        native      static
 boolean         enum        implements  package     super
-byte            export      import      private
+byte            export      import      private     synchronized
+
 */
