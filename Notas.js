@@ -210,5 +210,5 @@ JavaScript predefine diversas variáveis e funções globais e você deve evitar
 arguments       encodeURI               Infinity    Number      RegExp
 Array           encodeURIComponent      isFinite    Object      String
 Boolean         Error                   isNaN       parseFloat  SyntaxError
-Date            eval                    JSON        parseInt    
+Date            eval                    JSON        parseInt    TypeError
 */
