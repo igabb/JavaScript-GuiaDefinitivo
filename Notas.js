@@ -208,5 +208,6 @@ const           float       long        short       volatile
 JavaScript predefine diversas variáveis e funções globais e você deve evitar o uso de seus nomes em suas próprias variáveis e funções:
 
 arguments       encodeURI               Infinity    Number      RegExp
-Array           encodeURIComponent      isFinite    Object      
+Array           encodeURIComponent      isFinite    Object      String
+
 */
