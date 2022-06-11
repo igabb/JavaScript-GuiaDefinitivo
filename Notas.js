@@ -211,5 +211,5 @@ arguments       encodeURI               Infinity    Number      RegExp
 Array           encodeURIComponent      isFinite    Object      String
 Boolean         Error                   isNaN       parseFloat  SyntaxError
 Date            eval                    JSON        parseInt    TypeError
-decoreURI       
+decoreURI       EvalError               
 */
