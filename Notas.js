@@ -212,5 +212,5 @@ Array                   encodeURIComponent      isFinite    Object              
 Boolean                 Error                   isNaN       parseFloat          SyntaxError
 Date                    eval                    JSON        parseInt            TypeError
 decoreURI               EvalError               Math        RangeError          undefined
-decodeURIComponent      Function                NaN         ReferenceError      
+decodeURIComponent      Function                NaN         ReferenceError      URIError
 */
