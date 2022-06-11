@@ -217,3 +217,6 @@ decodeURIComponent      Function                NaN         ReferenceError      
 Lembre-se de que as implementações da JavaScript podem definiri outras variáveis e funções globais, sendo que cada incorporação de JavaScript específica(lado do cliente, lado do servidor, etc.) terá suia própria lista de propriedades globais. Consulte o objeto Window na Parte IV para ver uma lista das variáveis e funções globais definidas por JavaScript do lado do cliente.
 */
 
+/*
+
+*/
