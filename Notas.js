@@ -213,4 +213,6 @@ Boolean                 Error                   isNaN       parseFloat          
 Date                    eval                    JSON        parseInt            TypeError
 decoreURI               EvalError               Math        RangeError          undefined
 decodeURIComponent      Function                NaN         ReferenceError      URIError
+
+
 */
