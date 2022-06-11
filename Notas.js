@@ -207,10 +207,10 @@ const           float       long        short       volatile
 /*
 JavaScript predefine diversas variáveis e funções globais e você deve evitar o uso de seus nomes em suas próprias variáveis e funções:
 
-arguments               encodeURI               Infinity    Number      RegExp
-Array                   encodeURIComponent      isFinite    Object      String
-Boolean                 Error                   isNaN       parseFloat  SyntaxError
-Date                    eval                    JSON        parseInt    TypeError
-decoreURI               EvalError               Math        RangeError  undefined
-decodeURIComponent      Function                NaN
+arguments               encodeURI               Infinity    Number              RegExp
+Array                   encodeURIComponent      isFinite    Object              String
+Boolean                 Error                   isNaN       parseFloat          SyntaxError
+Date                    eval                    JSON        parseInt            TypeError
+decoreURI               EvalError               Math        RangeError          undefined
+decodeURIComponent      Function                NaN         ReferenceError      
 */
