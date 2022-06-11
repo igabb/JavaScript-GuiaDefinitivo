@@ -218,5 +218,6 @@ Lembre-se de que as implementações da JavaScript podem definiri outras variáv
 */
 
 /*
+Considere o código a seguir. Como as duas instruções aparecem em linhas separadas, o primeiro ponto e vírgula poderia ser omitido:
 
 */
