@@ -232,5 +232,6 @@ a
 3
 consoloe.log(a)
 
+JavaScript interpreta esse código como segue:
 
 */
