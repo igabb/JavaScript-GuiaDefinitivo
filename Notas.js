@@ -233,5 +233,5 @@ a
 consoloe.log(a)
 
 JavaScript interpreta esse código como segue:
-
+var a; a = 3; console.log(a);
 */
