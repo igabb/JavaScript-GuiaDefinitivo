@@ -228,5 +228,6 @@ Note que JavaScript não trata toda quebra de linha como ponto e vírgula: ela n
 
 var a
 a
+=
 
 */
