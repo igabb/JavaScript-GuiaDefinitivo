@@ -223,4 +223,8 @@ a = 3;
 b = 4;
 
 a = 3; b = 4;
+
+Note que JavaScript não trata toda quebra de linha como ponto e vírgula: ela normalmente trata as quebras de linha como pontos e vírgulas somente se não consegue analisar o código sem os pontos e vírgulas. mais formalmente (e com as duas exceções, descrita a seguir) JavaScript trata uma quebra de linha como ponto e vírgula caso o próximo caractere que não seja espaço não possa ser interpretado como a continuação da instrução concorrente. Considere o código a seguir:
+
+
 */
