@@ -222,5 +222,5 @@ Considere o código a seguir. Como as duas instruções aparecem em linhas separ
 a = 3;
 b = 4;
 
-
+a = 3; b = 4;
 */
