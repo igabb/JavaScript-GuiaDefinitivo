@@ -230,5 +230,5 @@ var a
 a
 =
 3
-
+consoloe.log(a)
 */
